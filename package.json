@@ -1,0 +1,36 @@
+{
+  "name": "Bingeflixed",
+  "version": "1.0.0",
+  "description": "BINGEFLIX LINK -   https://secret-bayou-81319.herokuapp.com/",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "init": "^0.1.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-heroku": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollesche02/Bingeflixed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollesche02/Bingeflixed/issues"
+  },
+  "homepage": "https://github.com/pollesche02/Bingeflixed#readme"
+}
