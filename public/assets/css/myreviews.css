@@ -1,42 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 400;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+    /* background-color: #644E90; */
+    background-repeat: repeat-x;
+}
 nav ul {
     margin: 0;
     padding: 0px;
     list-style: none;
     float: right;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline-block;
-    margin-left: 375px;
-    padding-top: 30px;
+    margin-left: 250px;
+    padding-top: 25px;
     position: relative;
-  }
-  
-  nav a {
-    color: #644E90;
+}
+
+nav a {
+    /* background-color: #644E90; */
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size:30px;
     
-  }
-  
-  nav a:hover {
-    color: black
-  }
-  
-  nav a::before {
+}
+
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
     content: '';
     display: block;
     height: 5px;
     background-color: #644E90;
-  
+
     position: absolute;
     top: 0;
     width: 0%;
-  
+
     transition: all ease-in-out 250ms;
-  }
-  
-  nav a:hover::before {
+}
+
+/* .bg-dark {
+    background-color: #644E90;
+} */
+
+nav a:hover::before {
     width: 100%; 
-  }
+}
+
+.container3 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #644E90;
+}
+
+h5 {
+    font-size: 30px;
+}
+h1 {
+    font-size: 100px;
+    font-family: Comic Sans MS;
+}
