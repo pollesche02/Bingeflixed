@@ -1,9 +1,7 @@
 //needs jquery CDN
-
 // import { response } from "express";
-
 $(document).ready(function () {
-
+console.log("API OMDB jS")
     var showId;
 
     var createContent = function (data) {

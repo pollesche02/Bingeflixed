@@ -245,8 +245,9 @@ $(document).ready (function (){
   }
   
   let getReviewsByUserId = function(id) {
+    console.log("ID:", id)
     return $.ajax({
-      url: "/api/user/" + id + "/reviews",
+      url: "/api/user/reviews",
       type: "GET"
     })
   }
@@ -348,9 +349,9 @@ $(document).ready (function (){
         description: reviewDescription,
         // postId: userId
       }
-      
+        console.log("DATA: ", data)
       createReview(data).then(function() {
-        window.location.replace("./myreviews")
+        window.location.replace("/myreviews")
       })
     }
   })
