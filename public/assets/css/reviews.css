@@ -16,6 +16,19 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 25px;
+  
+}
+
+.container2 {
+  display: flex;
+  width: 95%;
+  padding: 1%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.container p{
+    font-size: 30px;
 }
 
 h1 {
@@ -66,7 +79,7 @@ nav a:hover::before {
 }
 
 p{
-  font-size: 13px;
+  font-size: 3px;
 }
 p4 {
   font-size: 25px;
@@ -87,10 +100,16 @@ overflow: hidden;
   margin: 5px auto;
 }
 
-h3{
+h1{
   font-size: 32px;
   font-weight: bold;
 }
+
+h3 {
+  margin-left: 150px;
+  font-size: 40px;
+  font-family: Comic Sans MS;
+} 
 
 .bg-dark{
   min-width: 576px;
@@ -114,32 +133,22 @@ input[type=text]:focus {
   width: 100%;
 }
 
-
-.container {
-  display: flex;
-  width: 95%;
-  padding: 1%;
-  box-sizing: border-box;
-  height: 100%;
-}
-
-.container p{
-    font-size: 1.8rem;
-}
-
 #searchResults img{
   margin: 0px 10px;
   float: left;
 }
 
 
+*, ::after, ::before {
+  /* box-sizing: border-box; */
+} 
 
 .box {
   flex: 1;
   overflow: hidden;
   transition: .5s;
   margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  /* box-shadow: 0 20px 30px rgba(0,0,0,.1); */
   line-height: 0;
 }
 .box > span {
@@ -184,14 +193,20 @@ h3 {
 }
 
 .uk-text-center {
-  font-size: 90px;
-    font-family: Comic Sans MS;
-    padding-inline: 10px;
+  font-size: 60px;
+  font-family: Comic Sans MS;
+  color: #644E90;
+   
 }
 
 .uk-button-secondary {
   margin-left: 150px;
  margin-top: 10px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #644E90;
+  border-color: black;
 }
 
 #animated_div {
