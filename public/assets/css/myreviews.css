@@ -71,3 +71,9 @@ h1 {
     font-size: 100px;
     font-family: Comic Sans MS;
 }
+
+.nav-link {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
